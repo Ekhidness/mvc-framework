@@ -1,0 +1,153 @@
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    padding: 0;
+    margin: 0;
+    line-height: 1.4;
+    background-color: #f8f9fa;
+    color: #212529;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+}
+header {
+    background-color: #FFFFFF;
+    color: #ffffff;
+    padding: 12px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 6px 12px;
+    display: inline-block;
+    background-color: darkslategray;
+    border-radius: 15px;
+
+}
+nav a:hover {
+    background-color: lightgrey;
+}
+main {
+    padding: 20px;
+    width: 100%;
+    max-width: 900px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    flex: 1;
+}
+section {
+    padding: 16px 0;
+    border-bottom: 1px solid #e2e8f0;
+}
+h1, h2, h3 {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 10px;
+    color: black;
+}
+p {
+    padding: 5px 0;
+    margin: 0;
+}
+nav a.action-btn {
+    background-color: #28a745;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+nav a.action-btn:hover {
+    background-color: #218838;
+    text-decoration: none;
+}
+form {
+    display: block;
+    padding: 10px 0;
+}
+form label {
+    display: block;
+    padding: 8px 0;
+}
+form input, form select {
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    padding: 8px 10px;
+    border: 1px solid #cbd5e0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #2d3748;
+}
+form button {
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    padding: 10px;
+    background-color: #0d6efd;
+    color: #ffffff;
+    border: 2px solid #0b5ed7;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+form button:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+form button:active {
+    background-color: #0a58ca;
+}
+form button:focus {
+    outline: 3px solid #80bdff;
+    outline-offset: 2px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 0;
+    margin: 0;
+}
+th, td {
+    border: 1px solid #e2e8f0;
+    padding: 8px 10px;
+    text-align: left;
+}
+th {
+    background-color: #edf2f7;
+    color: #2d3748;
+}
+.error {
+    color: #c53030;
+    background-color: #fff5f5;
+    padding: 10px;
+    border: 1px solid #feb2b2;
+    display: block;
+}
+.success {
+    color: #276749;
+    background-color: #f0fff4;
+    padding: 10px;
+    border: 1px solid #9ae6b4;
+    display: block;
+}
+footer {
+    background-color: #1a202c;
+    color: #a0aec0;
+    text-align: center;
+    padding: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+a {
+    color: light;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}

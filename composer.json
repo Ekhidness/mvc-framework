@@ -1,0 +1,35 @@
+{
+    "name": "ekhidness/mvc-framework",
+    "description": "Simple MVC framework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ekhidness",
+            "email": "ekhidna@disroot.org"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "illuminate/database": "^12.0@dev",
+        "illuminate/events": "^12.0@dev",
+        "nikic/fast-route": "^2.0@dev",
+        "ekhidness/collect": "dev-main",
+        "ekhidness/phone-utils": "dev-main"
+    },
+    "autoload": {
+    "psr-4": {
+        "Src\\": "core/Src/",
+        "Model\\": "app/Model/",
+        "Controller\\": "app/Controller/",
+        "Middlewares\\": "app/Middlewares/",
+        "Validators\\": "app/Validators/",
+        "Providers\\": "app/Providers/",
+        "ekhidness\\PhoneUtils\\": "vendor/ekhidness/phone-utils/src/" 
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "11.5.x-dev"
+    }
+}
